@@ -1,57 +1,58 @@
-# 💬 Demo SalesIQ — Tích Hợp Chat Hỗ Trợ Khách Hàng Trực Tuyến
+# Demo SalesIQ — Blog An Ninh Mạng với Tích Hợp Live Chat
 
 ## Giới Thiệu
 
-Demo SalesIQ là dự án trình diễn (demo) cách tích hợp công cụ chat hỗ trợ khách hàng trực tuyến **Zoho SalesIQ** vào website. Dự án minh họa cách doanh nghiệp có thể triển khai widget chat để tương tác với khách hàng theo thời gian thực, theo dõi hành vi người dùng trên trang và cải thiện tỷ lệ chuyển đổi.
+**Demo SalesIQ** là website demo thương hiệu **Hautech** — blog chia sẻ kiến thức an ninh mạng. Dự án được xây dựng để minh họa cách tích hợp **Zoho SalesIQ** (widget chat hỗ trợ khách hàng trực tuyến) vào một website nhiều trang. Zoho SalesIQ widget xuất hiện ở mọi trang, cho phép khách truy cập liên hệ trực tiếp và người quản trị theo dõi hành vi người dùng.
 
-## Mục Đích
+---
 
-- **Demo kỹ thuật**: Trình diễn quy trình tích hợp SalesIQ vào website
-- **Tham khảo nội bộ**: Tài liệu tham khảo cho đội ngũ Flash Dev Team khi triển khai cho khách hàng
-- **Mẫu triển khai**: Cấu hình chuẩn để áp dụng vào các dự án thực tế
+## Nội Dung Website
 
-## Tính Năng Minh Họa
+| Trang | Nội dung |
+|-------|----------|
+| Trang chủ | Hero section "Bảo vệ tài sản số của bạn", 3 bài viết nổi bật, phần giới thiệu, form đăng ký nhận tin |
+| Blog | Danh sách bài viết an ninh mạng: Ransomware, Zero Trust, Penetration Testing, Network Security |
+| Chi tiết bài viết | Đọc nội dung bài viết đầy đủ |
+| Liên hệ | Thông tin liên hệ (email: hello@hautech.vn, địa chỉ TP.HCM), form liên hệ |
 
-### 💬 Chat Trực Tuyến
+---
 
-- 🔔 **Widget chat nổi**: Nút chat xuất hiện ở góc trang để khách hàng liên hệ nhanh
-- 👋 **Lời chào tự động**: Tin nhắn chào hỏi tự động khi khách truy cập trang
-- 📱 **Tương thích di động**: Hoạt động mượt mà trên cả desktop và mobile
-- ⏱️ **Phản hồi realtime**: Nhân viên hỗ trợ nhận và trả lời tin nhắn ngay lập tức
+## Tính Năng Tích Hợp
 
-### 📊 Theo Dõi Khách Hàng
+- **Zoho SalesIQ**: Widget chat live xuất hiện ở góc trang trên tất cả các trang
+- **Zoho PageSense**: Theo dõi và phân tích hành vi người dùng
+- Hiệu ứng scroll AOS, responsive Bootstrap 5
 
-- 👁️ **Giám sát hành vi**: Theo dõi trang khách đang xem, thời gian trên trang
-- 🌍 **Thông tin địa lý**: Xác định vị trí địa lý và thiết bị của khách truy cập
-- 🔍 **Nguồn traffic**: Biết khách đến từ kênh nào (Google, Facebook, trực tiếp,...)
+---
+
+## Mục Đích Dự Án
+
+- Minh họa quy trình tích hợp Zoho SalesIQ vào website HTML tĩnh
+- Tài liệu tham khảo nội bộ của Flash Dev Team khi triển khai live chat cho khách hàng
+
+---
 
 ## Công Nghệ Sử Dụng
 
 | Thành phần | Công nghệ |
-|---|---|
-| Frontend | HTML5, CSS3, JavaScript |
-| Chat Widget | Zoho SalesIQ |
-| Loại | Website tĩnh / Demo |
+|------------|-----------|
+| Giao diện | HTML5, CSS3, Bootstrap 5, JavaScript |
+| Animations | AOS (Animate on Scroll) |
+| Live chat | Zoho SalesIQ |
+| Analytics | Zoho PageSense |
 
-## Hướng Dẫn Cài Đặt
+---
 
-### Chạy Demo Local
+## Hướng Dẫn Xem
 
-1. **Clone dự án**
-   ```bash
-   git clone https://github.com/Flash-Dev-Team/demo-salesiq.git
-   cd demo-salesiq
-   ```
+```bash
+git clone https://github.com/Flash-Dev-Team/demo-salesiq.git
+cd demo-salesiq
+# Mở index.html trong trình duyệt
+```
 
-2. **Mở file `index.html`** trong trình duyệt
-
-### Tích Hợp Vào Dự Án Của Bạn
-
-1. Đăng ký tài khoản tại [Zoho SalesIQ](https://www.zoho.com/salesiq/)
-2. Lấy mã widget script từ dashboard SalesIQ
-3. Dán mã script vào trước thẻ `</body>` của trang HTML
+---
 
 ## Liên Hệ
 
-Dự án được phát triển bởi **Flash Dev Team**.  
-Mọi thắc mắc xin liên hệ qua [GitHub Issues](https://github.com/Flash-Dev-Team/demo-salesiq/issues).
+Dự án phát triển bởi **Flash Dev Team** — [GitHub](https://github.com/Flash-Dev-Team)
